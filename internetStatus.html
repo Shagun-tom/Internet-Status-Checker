@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Status Checker</title>
+    <link rel="stylesheet" href="internetStatus.css">
+    
+
+</head>
+
+<body>
+
+    <header id="headSection">
+        <div class="name">
+            <img src="images/wifi.png" id="icon"><img>
+            <div id="siteInfo">
+                <p id="webSiteName">NetPulse</p>
+                <p id="purpose">Your Internet Connection Monitor</p>
+            </div>
+        </div>
+        <div class="navLinks">
+            <div class="online" >● Online</div>
+            <a class="links" id="home" href="#homePage">Home</a>
+            <a class="links" id="work" href="#">How it Works</a>
+            <a class="links" id="about" href="#">About</a>
+        </div>
+    </header>
+    <main id="mainSection">
+        <div id="homePage">
+            <div id="liveHead">Live Connection Monitor</div>
+            <div id="live">Is Your Internet Working?</div>
+            <div id="checkConnection">Check your connection status instantly.</div>
+            <div id="see">
+                <div id="network">
+                    <div id="networkIcon"><img src="images/wifi.png"   id="networkIconImg"><img>
+                    </div>
+                    <div class="online">You're Online</div>
+                    <div id="networkActive">Your internet connection is active.</div>
+                </div>
+                <div id="connectionStatus">
+                    <div id="connectionStatusHeading">Connection Status</div>
+                    <div id="connectionStatusData">
+                        <p id="connectionStatusDataTitle">Status</p>
+                        <p class="online" id="onoffStatus">● Online</p>
+                    </div>
+                    <div id="connectionData">
+                        <p id="connectionDataTitle">Connection</p>
+                        <p id="connectionDataResult">Internet detected</p>
+                    </div>
+                    <div id="connectionStatusChecked">
+                        <p id="connectionStatusCheckedDataTitle">Last Checked</p>
+                        <p id="connectionStatusCheckedResult">time</p>
+                    </div>
+                    <div id="connectionStatusCheckAgain">Check Again</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footSection"></footer>
+    <script src="internetStatus.js"></script>
+</body>
+
+</html>
