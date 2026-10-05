@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Internet Status Checker</title>
     <link rel="stylesheet" href="internetStatus.css">
-    
+    <link rel="stylesheet" href="https://cloudflare.com">
+
 
 </head>
 
@@ -34,7 +35,7 @@
             <div id="checkConnection">Check your connection status instantly.</div>
             <div id="see">
                 <div id="network">
-                    <div id="networkIcon"><img src="images/wifi.png"   id="networkIconImg"><img>
+                    <div id="networkIcon"><img src="images/wifi.png" id="networkIconImg"><img>
                     </div>
                     <div id="URonline">You're Online</div>
                     <div id="networkActive">Your internet connection is active.</div>
@@ -56,6 +57,33 @@
                     <button id="connectionStatusCheckAgain">Check Again</button>
                 </div>
             </div>
+            <div id="path">
+                <img src="images\Screenshot 2026-10-05 000752.png" alt="data flow" id="dataFlowImage">
+                <div id="dataFlow">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-computer"></i></div>
+                        <div class="device">Device</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="box">
+                        <div class="icon"><i class="bi bi-router"></i></div>
+                        <div class="device">Router</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="box">
+                        <div class="icon">&#127760;</div>
+                        <div class="device">Internet</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="box">
+                        <div class="icon">☁️</div>
+                        <div class="device">Cloud</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         </div>
     </main>
     <footer id="footSection"></footer>

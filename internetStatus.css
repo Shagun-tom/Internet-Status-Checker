@@ -237,3 +237,20 @@
     justify-content: center;
     align-items: center;
 }
+
+#path{
+    display: flex;
+    gap: 15px;
+}
+
+#dataFlowImage{
+    flex: 1;
+    border-radius: 5px;
+    width: 500px;
+}
+
+#dataFlow{
+    flex: 1;
+    display: flex;
+    background-color: blue;
+}
